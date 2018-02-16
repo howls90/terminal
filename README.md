@@ -2,6 +2,6 @@
 
 ## Installation
 ```
-cp .vimrc ~/
+cp vimrc ~/.vim/
 :BundleInstall
 ```
