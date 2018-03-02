@@ -47,7 +47,7 @@ call vundle#begin()
     Plugin 'tpope/vim-commentary'               " Comment stuff out
     Plugin 'mitsuhiko/vim-sparkup'              " Sparkup(XML/jinja/htlm-django/etc.) support
     Plugin 'Rykka/riv.vim'                      " ReStructuredText plugin
-"    Plugin 'Valloric/YouCompleteMe'             " Autocomplete plugin
+    Plugin 'Valloric/YouCompleteMe'             " Autocomplete plugin
 
     "-------------------=== Python  ===-----------------------------
     Plugin 'klen/python-mode'                   " Python mode (docs, refactor, lints...)
@@ -62,7 +62,7 @@ call vundle#begin()
     Plugin 'burnettk/vim-angular'
     Plugin 'alvan/vim-closetag'
     Plugin 'Xuyuanp/nerdtree-git-plugin'
-    
+    Plugin 'myusuf3/numbers.vim'    
 
 call vundle#end()                           " required
 filetype on
@@ -254,15 +254,9 @@ let g:ycm_confirm_extra_conf=0
 nmap <leader>g :YcmCompleter GoTo<CR>
 nmap <leader>d :YcmCompleter GoToDefinition<CR>
 
-command Py execute ":w !python3"
-map <F2> :Py<CR>
-
-command Rb execute ":w !ruby"
-map <F3> :Rb<CR>
-
 nnoremap <silent> <F9> :TagbarToggle<CR>
 execute pathogen#infect()
 call pathogen#helptags()
 
-command Bash execute ":Terminal bash"
-map <A-T> :Bash<CR>
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
