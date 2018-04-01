@@ -1,1 +1,0 @@
-/home/howls/.vim/vimrc
