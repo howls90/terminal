@@ -28,6 +28,12 @@ alias gd='git diff | mate'
 alias gb='git branch'
 alias gba='git branch -a'
 alias del='git branch -d'
+alias ..='cd ..'
+alias apt-get='sudo apt-get'
+alias l='lsicons'
+alias dcu='docker-compose up'
+alias dcd="docker-compose down"
+alias dpa='docker ps -a'
 
 # firefox
 alias f='firefox -search'
