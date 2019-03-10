@@ -1,4 +1,7 @@
-# myTerminal
+# Terminal
+
+List of tools for my day-to-day work.
+This configuration was tested in Gnome Terminal.
 
 ## Installation
 
