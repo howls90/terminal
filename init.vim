@@ -24,6 +24,7 @@ call plug#begin()
     Plug 'terryma/vim-multiple-cursors'
     Plug 'ap/vim-css-color'
     Plug 'mileszs/ack.vim'
+    Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Note: Skip initialization for vim-tiny or vim-small.
@@ -124,5 +125,12 @@ let g:jedi#goto_command = "<leader>d"
 let g:jedi#goto_assignments_command = "<leader>g"
 
 "" Ctags
-set tags=tags
-set tags+=tags;$HOME
+" set tags=tags
+" set tags+=tags;$HOME
+
+"" Ack shortcut
+:nmap <c-k> :Ack<CR>
+
+"" Numbers plugin
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F5> :NumbersOnOff<CR>
