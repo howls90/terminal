@@ -36,6 +36,11 @@ alias f='firefox -search'
 alias ..='cd ..'
 alias apt-get='sudo apt-get'
 alias l='lsicons'
+alias dcu='docker-compose up'
+alias dcd="docker-compose down"
+alias dpa='docker ps -a'
 
 # Golang
-set -x PATH $PATH /usr/local/go/bin
+set -x GOROOT /usr/local/go
+set -x GOPATH $HOME/.go
+set -x PATH $GOPATH/bin $GOROOT/bin $PATH
