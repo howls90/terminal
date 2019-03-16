@@ -29,13 +29,11 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias del='git branch -d'
 
-# firefox
-alias f='firefox -search'
-
 # Others
 alias ..='cd ..'
 alias apt-get='sudo apt-get'
 alias l='lsicons'
+alias dc='docker-compose'
 alias dcu='docker-compose up'
 alias dcd="docker-compose down"
 alias dpa='docker ps -a'
