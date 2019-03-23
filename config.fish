@@ -8,7 +8,7 @@ source $OMF_PATH/init.fish
 rvm default
 
 # isao
-alias isao "$HOME/projects/isao/isao"
+alias project "$HOME/projects/projects"
 
 # nvim
 export VTE_VERSION="100"
@@ -28,6 +28,7 @@ alias gd='git diff | mate'
 alias gb='git branch'
 alias gba='git branch -a'
 alias del='git branch -d'
+alias gca='git commit --amend'
 
 # Others
 alias ..='cd ..'
