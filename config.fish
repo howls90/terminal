@@ -37,7 +37,7 @@ alias l='lsicons'
 alias dc='docker-compose'
 alias dcu='docker-compose up'
 alias dcd="docker-compose down"
-alias dcd="docker-compose build"
+alias dcb="docker-compose build"
 alias dpa='docker ps -a'
 alias dca='docker-compose run app bash'
 
